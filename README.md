@@ -18,6 +18,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
+- React Hoock
+   - useState
 - Components
 - Props
 
