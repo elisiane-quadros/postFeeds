@@ -1,0 +1,111 @@
+
+.modalBox {
+  background-color: var(--gray-800);
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 509px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  color: var(--gray-100)
+}
+
+.headerModal {
+  display:flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-600);
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+
+}
+.headerModal button {
+  background-color: transparent;
+  border: hidden;
+  color: var(--purple-500) ;
+  cursor: pointer;  
+}
+.headerModal button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.container {
+  margin: 1.5rem;  
+}
+
+.imageProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.editProfile input {
+  position: relative;
+  color: var(--gray-100);
+}
+
+.editProfile button {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  border: 0;
+  background: var(--purple-500);
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.1s, background-color 0.1s;
+}
+
+.editProfile button:hover {
+  background: var(--purple-300);
+}
+
+.editProfile input {
+  width: 100%;
+  background: var(--gray-900);
+  border: 0;
+  resize: none;
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+  line-height: 1.4;
+}
+
+.item {
+  margin-top: 1.5rem;
+}
+
+.item input {
+  margin-top: 0.5rem;
+}
+
+.editImage {
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.savedSuccess{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 383px;
+}
+.savedSuccess strong {
+  color: var(--gray-300);
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.savedSuccess svg {
+  color: rgb(14, 238, 238);
+}

@@ -1,9 +1,17 @@
+
 .header {
   background: var(--gray-800);
   display: flex;
   justify-content: center;
   padding: 1.25rem 0;
+
+  gap: 1rem;
 }
 .header img {
   height: 2rem;
+}
+.header h1 {
+  font-family: "caramel";
+  color: var(--gray-400);
+  text-shadow: 2px 2px 4px #000000;
 }

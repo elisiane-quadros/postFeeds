@@ -38,7 +38,7 @@
   padding: 1.5rem 2rem 2rem;
 }
 
-.sidebar footer a {
+.sidebar footer button {
   background: transparent;
   color: var(--purple-500);
   border: 1px solid var(--purple-500);
@@ -48,6 +48,7 @@
   display: block;
   font-weight: bold;
   text-decoration: none;
+  cursor: pointer;
 
   display: flex;
   align-items: center;
