@@ -8,9 +8,7 @@
 
   gap: 0.5rem;
 }
-.header img {
-  
-}
+
 .header h1 {
   font-family: "caramel", sans-serif;
   color: var(--gray-400);
