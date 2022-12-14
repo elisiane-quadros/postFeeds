@@ -35,9 +35,8 @@
   border-radius: 2px;
 }
 .commentContent header button:focus{
-  outline: none !important;
-  box-shadow: none !important;
-  border: none !important;
+  outline: none;
+  box-shadow: none;
 }
 
 .commentContent header button:hover{
@@ -77,8 +76,13 @@
   border-radius: 2px;
 }
 
-.commentBox footer button:hover{
+.commentBox footer button:hover {
   color: var(--purple-300);
+}
+
+.commentBox footer button:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .commentBox footer button svg {

@@ -6,8 +6,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50%;
-  height: 509px;
+  width: 600px;
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
   color: var(--gray-100)
 }
@@ -27,9 +26,8 @@
   cursor: pointer;  
 }
 .headerModal button:focus {
-  outline: none !important;
-  box-shadow: none !important;
-  border: none !important;
+  outline: none;
+  box-shadow: none;
 }
 
 .container {
@@ -96,6 +94,7 @@
   align-items: center;
   justify-content: center;
   height: 383px;
+  margin: 1.5rem;
 }
 .savedSuccess strong {
   color: var(--gray-300);
@@ -108,4 +107,11 @@
 }
 .savedSuccess svg {
   color: rgb(14, 238, 238);
+}
+
+@media (max-width: 767px) {
+  .modalBox {
+    width: 90%;
+  }
+
 }
