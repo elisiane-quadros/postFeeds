@@ -16,7 +16,7 @@ export function Sidebar() {
   const [profile, setProfile] = useState<UserProfile>({
     name: "Elisiane Quadros",
     occupation: "Web Developer",
-    src: "https://github.com/LisiQuadros.png",
+    src: "https://github.com/elisiane-quadros.png",
   });
 
   function handleOpenModal() {
