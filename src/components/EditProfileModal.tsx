@@ -46,7 +46,7 @@ export default function EditProfileModal({
   };
 
   const handleProfileImage = (event: ChangeEvent<HTMLInputElement>) => {
-    console.log(event);
+    
     let output = document.getElementById("imageEditProfile") as HTMLImageElement;
 
     if (output && event.target.files?.length) {
