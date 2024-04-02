@@ -22,7 +22,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 - React Hooks
 - Components
-- Props
+
 
 ### Principais dependências:
 
