@@ -10,8 +10,8 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: "src/assets/img/post1.jpg",
-      name: "Gaby Q.",
+      avatarUrl: "src/assets/img/post2.jpg",
+      name: "Gaby C. Q.",
       role: "Desenvolvedor Web",
     },
     content: [
@@ -28,7 +28,7 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: "src/assets/img/post1.jpg",
+      avatarUrl: "src/assets/img/post2.jpg",
       name: "Elis Camargo",
       role: "Desenvolvedor Web",
     },
