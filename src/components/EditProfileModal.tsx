@@ -34,6 +34,7 @@ export default function EditProfileModal({
     setSaved(false);
     setName(profile.name);
     setOccupation(profile.occupation);
+    setSrc(profile.src);
   };
 
   const handleName = (event: ChangeEvent<HTMLInputElement>) => {
@@ -44,12 +45,17 @@ export default function EditProfileModal({
     setOccupation(event.target.value);
   };
 
-  const handleProfileImage = (event: any) => {
-    let output: any = document.getElementById("imageEditProfile");
-    if (output) {
+  const handleProfileImage = (event: ChangeEvent<HTMLInputElement>) => {
+    console.log(event);
+    let output = document.getElementById("imageEditProfile") as HTMLImageElement;
+
+    if (output && event.target.files?.length) {
       output.src = URL.createObjectURL(event.target.files[0]);
     }
-    setSrc(URL.createObjectURL(event.target.files[0]));
+
+    if (event.target.files?.length) {
+      setSrc(URL.createObjectURL(event.target.files[0]));
+    }
   };
 
   const handleConfirm = (event: FormEvent) => {

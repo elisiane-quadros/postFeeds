@@ -2,7 +2,7 @@ import { format, formatDistanceToNow } from "date-fns";
 import ptBR from "date-fns/locale/pt-BR";
 import { Comment } from "./Comment";
 import { Avatar } from "./Avatar";
-import { ChangeEvent, FormEvent, InvalidEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
 
 import styles from "./Post.module.css";
 
@@ -61,7 +61,6 @@ export function Post({ author, publishedAt, content }: PostProps) {
   }
 
   const isNewCommentEmpty = newCommentText.length === 0;
-  console.log(author.avatarUrl);
 
   return (
     <article className={styles.post}>
